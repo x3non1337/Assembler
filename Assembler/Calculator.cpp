@@ -22,12 +22,12 @@ int main()
 
 int menu(int num)
 {
-	cout << "\n0 - âûõîä\n";
-	cout << "1 - Ñëîæåíèå\n";
-	cout << "2 - Âû÷èòàíèå\n";
-	cout << "3 - Óìíîæåíèå\n";
-	cout << "4 - Äåëåíèå\n";
-	cout << "\nÂâåäèòå íóæíóþ îïåðàöèþ: "; cin >> num;
+	cout << "\n0 - выход\n";
+	cout << "1 - Сложение\n";
+	cout << "2 - Вычитание\n";
+	cout << "3 - Умножение\n";
+	cout << "4 - Деление\n";
+	cout << "\nВведите нужную операцию: "; cin >> num;
 
 	switch (num)
 	{
@@ -35,8 +35,8 @@ int menu(int num)
 	{
 		int x, y;
 
-		cout << "Ââåäèòå ÷èñëî a: "; cin >> x;
-		cout << "Ââåäèòå ÷èñëî b: "; cin >> y;
+		cout << "Введите число a: "; cin >> x;
+		cout << "Введите число b: "; cin >> y;
 		cout << Add(x, y) << "\n"; break;
 	}
 
@@ -44,8 +44,8 @@ int menu(int num)
 	{
 		int x, y;
 
-		cout << "Ââåäèòå ÷èñëî a: "; cin >> x;
-		cout << "Ââåäèòå ÷èñëî b: "; cin >> y;
+		cout << "Введите число a: "; cin >> x;
+		cout << "Введите число b: "; cin >> y;
 		cout << Sub(x, y) << "\n"; break;
 	}
 
@@ -53,8 +53,8 @@ int menu(int num)
 	{
 		int x, y;
 
-		cout << "Ââåäèòå ÷èñëî a: "; cin >> x;
-		cout << "Ââåäèòå ÷èñëî b: "; cin >> y;
+		cout << "Введите число a: "; cin >> x;
+		cout << "Введите число b: "; cin >> y;
 		cout << Mul(x, y) << "\n"; break;
 	}
 
@@ -62,8 +62,8 @@ int menu(int num)
 	{
 		int x, y;
 
-		cout << "Ââåäèòå ÷èñëî a: "; cin >> x;
-		cout << "Ââåäèòå ÷èñëî b: "; cin >> y;
+		cout << "Введите число a: "; cin >> x;
+		cout << "Введите число b: "; cin >> y;
 		cout << Div(x, y) << "\n"; break;
 	}
 
